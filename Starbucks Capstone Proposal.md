@@ -46,7 +46,7 @@ The project contains three datasets:
  
 ### Solution Statement
 
-I will use EDA(exploratory data analysis) and Exploratory visualization to discover which offer is the best offer and which group like which offer most by:
+I will use EDA(exploratory data analysis) and Exploratory visualization to explore and understand the data, then use statistical analytics to discover which offer is the best offer and which group like which offer most by:
 
 * Comparing distributions, mean, median for each variable.
 
