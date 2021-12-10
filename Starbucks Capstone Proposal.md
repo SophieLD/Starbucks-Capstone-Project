@@ -1,6 +1,6 @@
 # Machine Learning Engineer Nanodegree
 ## Capstone Proposal
-Hongxia(Sophie) Hou 
+Hongxia(Sophie) Hou,  
 December 10th, 2021
  
 ## Proposal
