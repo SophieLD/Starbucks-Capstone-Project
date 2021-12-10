@@ -30,19 +30,19 @@ The project contains three datasets:
 
    * Containing basic info about each offer, such as `offer_id`, `offer_type`, `duration` for how many days the offer will be valid, `difficulty` for how much amount need to spend in order to get reward or complete the offer, `reward` for how much amount the user will get after an offer complete, `channel` for which channel to carry a certain type of offer.
 
-  * We can use this dataset combined with other dataset by matching the same `offer_id` to analyse how each offer’s performance during this experiment.
+   * We can use this dataset combined with other dataset by matching the same `offer_id` to analyse how each offer’s performance during this experiment.
 
 2. Profile
 
-  * Containing demographic information about each user, such as `age`, `gender`, `id`, `income` and `became_member_on` for when a user became Starbucks’ member.
+   * Containing demographic information about each user, such as `age`, `gender`, `id`, `income` and `became_member_on` for when a user became Starbucks’ member.
 
-  * We can segmentate the user based on different traits, together with other tables, we could discover how each group of users respond to different offers, so that we can determine which offer attracts which group more.
+   * We can segmentate the user based on different traits, together with other tables, we could discover how each group of users respond to different offers, so that we can determine which offer attracts which group more.
 
 3. Transcript
 
-  * Containing all the events, such as when a user received an offer, when a user opened an offer, when a user completed an offer and got reward, also every single transaction which a user has made. Another important info in this dataset is `time` for which hours happened for each user and each event, it’s from 0hour when the experiment started to the experiment end(at 714 hours)
+   * Containing all the events, such as when a user received an offer, when a user opened an offer, when a user completed an offer and got reward, also every single transaction which a user has made. Another important info in this dataset is `time` for which hours happened for each user and each event, it’s from 0hour when the experiment started to the experiment end(at 714 hours)
 
-  * This dataset will let us be able to find out which users did not open/respond to which offer, which users opened which offer but not completed, which users opened and completed which offer, which users completed which offer without seeing it. Together with the previous two dataset, we can segment users into different groups and also we can train a ML model and test how the model predicts the possible action a user could take. 
+   * This dataset will let us be able to find out which users did not open/respond to which offer, which users opened which offer but not completed, which users opened and completed which offer, which users completed which offer without seeing it. Together with the previous two dataset, we can segment users into different groups and also we can train a ML model and test how the model predicts the possible action a user could take. 
  
 ### Solution Statement
 
